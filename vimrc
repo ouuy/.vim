@@ -9,10 +9,16 @@ endif
 colo molokai
 set tabstop=4
 set cindent shiftwidth=4    
+" 显示行号
 set nu         
+" 设置文件编码, VIM 会尝试以下编码解析文件
+set fencs=utf-8,gbk
 
 set nocp
 filetype plugin on
+let g:pydiction_location = '~/.vim/complete-dict'
+"defalut g:pydiction_menu_height == 15
+"let g:pydiction_menu_height = 20 
 
 """""""""""""""""""""""""""""""""""""""""""""""""
 " NERDTree
