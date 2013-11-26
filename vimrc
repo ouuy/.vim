@@ -13,8 +13,9 @@ set cindent shiftwidth=4
 set nu         
 " 设置文件编码, VIM 会尝试以下编码解析文件
 set fencs=utf-8,gbk
-
+" 不兼容 VI 
 set nocp
+" 为特定的文件类型载入特定的插件
 filetype plugin on
 let g:pydiction_location = '~/.vim/complete-dict'
 "defalut g:pydiction_menu_height == 15
